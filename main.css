@@ -1,3 +1,21 @@
 html {
 	background-color: skyblue;
+	font-size: 10px;
+	box-sizing: border-box;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+p, li {
+	line-height: 1.6;
+}
+
+ul, ol, p, dl {
+	font-size: 1.6rem;
+
 }
