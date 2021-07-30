@@ -15,6 +15,14 @@ p, li {
 	line-height: 1.6;
 }
 
+h1 {
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 24rem;
+}
+
 ul, ol, p, dl {
 	font-size: 1.6rem;
 
