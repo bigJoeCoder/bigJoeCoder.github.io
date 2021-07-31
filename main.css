@@ -21,9 +21,31 @@ h1 {
 
 h2 {
 	font-size: 24rem;
+
 }
 
 ul, ol, p, dl {
 	font-size: 1.6rem;
+}
 
+nav {
+	background-color: olive;
+	height: 48px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	box-shadow: 1px 1px #888;
+	align-items: center;
+}
+
+nav ul {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: -100%;
+	list-style-type: none;
+}
+
+nav button {
+	cursor: pointer;
 }
